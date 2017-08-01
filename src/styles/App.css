@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body{
+  background-color: black;
+}
+
+.ItemContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateY(7%);
+}
+
+.Item {
+  border-radius: 10px;
+  background-color: rgb(87,165,228);
+  width: inherit;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.Item h2 {
+  font-family: 'Heebo', sans-serif;
+}
+
+.Item img{
+  background-image: url(https://thumb1.shutterstock.com/display_pic_with_logo/2764438/571700128/stock-vector-pop-art-pattern-black-dots-on-red-background-halftone-color-dots-pop-art-background-comic-book-571700128.jpg);
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  border-radius: 10px;
+}
+
+
+nav {
+  background-image: url(https://us.123rf.com/450wm/macrovector/macrovector1408/macrovector140800423/31011020-seamless-pop-art-background-with-comic-speech-bubbles-vector-illustration.jpg?ver=6);
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+
+nav ul {
+  padding: 20px 10px 20px 10px;
+}
+
+nav li {
+  display:inline;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(228,55,53);
+  margin: 0px 10px 0px 10px;
+  border-radius: 10px;
+  border: 4px black solid;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 400;
+}
+
+.emailform{
+  transform: translateY(70%);
+  margin-left: 1em;
+}
+.Page{
+  display:flex;
+  flex-direction: row;
+}
+.MainBody{
+  flex-basis: 45%;
+}
+.Lady{
+  flex-basis: 55%;
+  height: inherit;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/af/7b/59/af7b59b92876c0cfdc7f596458ce4c5e.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  z-index: 4;
+  transform: translateY(7%);
+}
